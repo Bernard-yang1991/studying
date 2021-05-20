@@ -1,0 +1,5 @@
+
+!ENTRY org.eclipse.core.resources 2 2 2021-05-20 13:29:35.301
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-05-20 13:29:35.301
+!MESSAGE The project description file (.project) for 'Objection' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
