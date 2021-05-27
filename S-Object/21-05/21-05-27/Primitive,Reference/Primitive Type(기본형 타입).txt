@@ -1,0 +1,18 @@
+1. Primitive Type (기본형 타입)
+
+	Type		Default value(기본값)	Size(할당크기)	Range of Values (표현 가능 범위)
+	byte		0			1byte		-128 ~ 127
+	short		0			2byte		-32,768 ~ 32767
+Integer	int (default) 	0			4byte		-2,147,483,648 ~ 2,147,483,647
+	long		0			8byte		-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807
+
+Floating- float		0.0			4byte		소수점 7 자리까지
+Point	double(default)	0.0			8byte		소수점 16 자리까지
+Char	char		/u0000			2byte(유니코드)	0~65,535
+Bool	bool		false			1byte		true,false
+
+2. Reference Type (참조형 타입)
+-기본형 타입을 제외한 타입들이 모두 참조형 타입(Reference type)이다.
+-빈 객체를 의미하는 Null이 존재한다.
+-값이 저장되어 있는 곳의 주소값을 저장하는 공간으로 힙(Heap)메모리에 저장된다.
+ex)배열,클래스,인터페이스,열거형 기타 등등.
